@@ -4,7 +4,7 @@ function Projects({ name, description, id, link, image }) {
   return (
     <Card>
       <a href={link}>
-        <Card.Img src="https://saml415.github.io/portfolio/assets/images/Kode.PNG" />
+        <Card.Img src="./images/kode.png" />
       </a>
       <Card.Body>
         <Card.Title>{name}</Card.Title>
