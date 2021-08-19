@@ -13,14 +13,14 @@ export default function PortfolioContainer() {
       case "Portfolio":
         return <Portfolio />;
 
-      case "About":
-        return <About />;
+      case "Contact":
+        return <Contact />;
 
       case "Resume":
         return <Resume />;
 
       default:
-        return <Contact />;
+        return <About />;
     }
   };
 

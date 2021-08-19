@@ -5,7 +5,8 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="header">
       <h1>Sam Lloyd</h1>
-      <ul className="nav nav-tabs">
+
+      <ul className="nav">
         <li className="nav-item">
           <a
             href="#portfolio"
