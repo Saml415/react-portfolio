@@ -8,7 +8,7 @@ export default function Portfolio({}) {
       description: "App for holding snippets of code.",
       id: 1,
       link: "https://github.com/Saml415/Kode-Keeper",
-      image: "https://saml415.github.io/portfolio/assets/images/Kode.PNG",
+      image: process.env.PUBLIC_URL + "/images/Kode.png",
     },
     {
       name: "Studio Ghibli Companion App",
@@ -16,21 +16,21 @@ export default function Portfolio({}) {
         "App for allowing users to track and find movies by Studio Ghibli.",
       id: 2,
       link: "https://github.com/LemonPocky/ghibli-app",
-      image: "https://saml415.github.io/portfolio/assets/images/Kode.PNG",
+      image: process.env.PUBLIC_URL + "/images/Ghibli.jpg",
     },
     {
       name: "Tech-Blog",
       description: "Forum site for posting tech related content",
       id: 3,
       link: "https://github.com/Saml415/tech-blog",
-      image: "https://saml415.github.io/portfolio/assets/images/Kode.PNG",
+      image: process.env.PUBLIC_URL + "/images/tech.jpg",
     },
     {
       name: "E-Commerce Back-end",
       description: "Backend program for an e-commerce site",
       id: 4,
       link: "hhttps://github.com/Saml415/e-commerce",
-      image: "https://saml415.github.io/portfolio/assets/images/Kode.PNG",
+      image: process.env.PUBLIC_URL + "/images/e-commerce.jpg.PNG",
     },
     {
       name: "Weather Forecast App",
@@ -38,7 +38,7 @@ export default function Portfolio({}) {
         "App for looking up weather forecasts from a third-party API",
       id: 5,
       link: "https://github.com/Saml415/weather-app",
-      image: "https://saml415.github.io/portfolio/assets/images/Kode.PNG",
+      image: process.env.PUBLIC_URL + "/images/weather.jpg",
     },
     {
       name: "Budget Tracker",
@@ -46,7 +46,7 @@ export default function Portfolio({}) {
         "PWA created to keep track of transactions both on and offline.",
       id: 6,
       link: "https://github.com/Saml415/budget-tracker",
-      image: "https://saml415.github.io/portfolio/assets/images/Kode.PNG",
+      image: process.env.PUBLIC_URL + "/images/budget.jpg.png",
     },
   ];
 
@@ -59,6 +59,7 @@ export default function Portfolio({}) {
           description={card.description}
           key={card.id}
           link={card.link}
+          image={card.image}
         />
       ))}
     </div>
