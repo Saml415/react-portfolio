@@ -1,0 +1,12 @@
+.aboutme {
+  margin-top: 40px;
+  width: 80%;
+}
+
+.account-logos {
+  height: 80px;
+  margin: 0 auto;
+}
+* {
+  background-color: rgb(78, 85, 100);
+}
