@@ -42,7 +42,7 @@ export default function Portfolio({}) {
   ];
 
   return (
-    <div className="container">
+    <div className="portcontainer">
       {projects.map((card) => (
         <Projects
           className="card"

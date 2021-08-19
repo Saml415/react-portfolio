@@ -1,9 +1,13 @@
-.container {
+.portcontainer {
   display: flex;
   margin-top: 40px;
-  width: 36rem;
+
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
   margin-right: 8px;
+  width: 24rem;
+  margin-bottom: 40px;
 }

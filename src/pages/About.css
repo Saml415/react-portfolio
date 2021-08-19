@@ -2,7 +2,10 @@
   margin-top: 40px;
   width: 80%;
 }
-
+.aboutsection {
+  margin-top: 16px;
+  border: gray 1px solid;
+}
 .account-logos {
   height: 80px;
   margin: 0 auto;
