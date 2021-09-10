@@ -1,4 +1,5 @@
-.portcontainer {
+.portcontainer,
+Projects {
   display: flex;
   margin-top: 40px;
 

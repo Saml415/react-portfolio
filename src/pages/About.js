@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import Footer from "../components/Footer";
+
 import "./About.css";
 
 export default function About() {
@@ -34,7 +34,6 @@ export default function About() {
             </p>
           </Row>
         </Container>
-        <Footer />
       </div>
     </>
   );
