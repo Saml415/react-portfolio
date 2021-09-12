@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Container, NavbarBrand } from "react-bootstrap";
+import "./NavTabs.css";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <>

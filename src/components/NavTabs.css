@@ -1,0 +1,11 @@
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nav-item {
+  margin-right: 12px;
+}

@@ -1,5 +1,4 @@
-.portcontainer,
-Projects {
+.portcontainer {
   display: flex;
   margin-top: 40px;
 
@@ -11,4 +10,12 @@ Projects {
   margin-right: 8px;
   width: 24rem;
   margin-bottom: 40px;
+}
+
+.card-img {
+  height: 224px;
+}
+
+.card:hover {
+  opacity: 100%;
 }
