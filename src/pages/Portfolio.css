@@ -15,7 +15,3 @@
 .card-img {
   height: 224px;
 }
-
-.card:hover {
-  opacity: 100%;
-}

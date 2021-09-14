@@ -1,0 +1,13 @@
+.proficiencies {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+.resume {
+  text-align: center;
+}
+.resumeLink {
+  text-decoration: none;
+}
