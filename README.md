@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Descritpion](#description)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
