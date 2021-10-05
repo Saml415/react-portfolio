@@ -27,10 +27,10 @@ export default function About() {
               schools yearbook team where we placed top 3 at the San Diego
               County Fair including 1st place for our division nationally my
               junior year while also receiving personal awards for my spreads. I
-              can code effectively in HTML, CSS, Javascript and a little Python
-              however like many developers Im still learning. When I am not
-              coding my hobbies include baseball, listening to records and
-              playing video games with my friends.
+              can code effectively in HTML, CSS, Javascript and Python however
+              like many developers Im still learning. When I am not coding my
+              hobbies include baseball, listening to records and playing video
+              games with my friends.
             </p>
           </Row>
         </Container>
