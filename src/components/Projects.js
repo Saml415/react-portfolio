@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Button } from "react-bootstrap";
-function Projects({ name, description, id, link, image }) {
+function Projects({ name, description, id, link, image, link2, linkname }) {
   console.log(image);
   return (
     <Card>
@@ -10,6 +10,10 @@ function Projects({ name, description, id, link, image }) {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{description}</Card.Text>
+
+        <a href={link2}>
+          <Card.Text>{linkname}</Card.Text>
+        </a>
       </Card.Body>
     </Card>
   );
